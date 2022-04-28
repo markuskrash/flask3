@@ -1,0 +1,61 @@
+.catalog {
+    padding-top: 30px;
+}
+
+.catalog_item {
+    width: calc(20% - 20px);
+    margin: 0 10px 15px;
+}
+
+.pay {
+    padding-top: 30px;
+}
+
+.pay__item {
+    width: 33%;
+}
+
+.cost {
+    width: 160px;
+    margin: 0 10px 15px;
+}
+
+.err {
+    padding-top: 50px;
+}
+
+.pay_button {
+    margin: 0 10px 15px;
+    width: 160px;
+}
+
+.button__item_h {
+    display: block;
+    /*width: calc(33% - 20px);*/
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.button__item {
+    display: block;
+    /*width: calc(33% - 20px);*/
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.button__item:hover {
+    /*color: #6c6c6c;*/
+
+}
+
+.button__item_h:hover {
+    color: #18AD18;
+    border-color: #18AD18;
+    background-color: #D5FFD5;
+}

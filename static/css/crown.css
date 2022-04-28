@@ -1,0 +1,40 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    background: transparent;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex_wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex_between {
+    justify-content: space-between;
+}
+
+.flex_align_center {
+    align-items: center;
+}
+
+.flex_center {
+    justify-content: center;
+}
+
+.flex_align_end {
+    align-items: flex-end;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+

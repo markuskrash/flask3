@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}{% endblock %}
+</head>
+<body>
+<div class="header flex">
+    <div class="header__item header__logo">
+        <a href="http://127.0.0.1:8080/" class="logo__button">
+            <img src="{{ url_for('static', filename='img/logo.svg') }}">
+        </a>
+    </div>
+    <div class="header__item header__title"></div>
+    <div class="header__item header__control">
+        {% block header_button %}{% endblock %}
+    </div>
+</div>
+{% block unheader %}{% endblock %}
+</body>
+</html>
